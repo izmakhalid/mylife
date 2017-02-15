@@ -1,6 +1,48 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700);
-#body {   margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%); }
-#wrapper {font-family: 'Roboto' sans-serif;font-weight: 300px; width:600px; margin:150px auto; text-align:center;  color:#fff; text-shadow:1px 1px #000; 
+// ----
+// libsass (v3.1.0)
+// ----
+
+$fonts: (
+  lato: (
+    url: 'http://fonts.googleapis.com/css?family=Lato:400,700',
+    stack: ("Lato", sans-serif)
+  ),
+  roboto: (
+    url: 'http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700',
+    stack: ("Roboto", sans-serif)
+  ),
+  ptsans: (
+    url: 'http://fonts.googleapis.com/css?family=PT+Sans:400,700',
+    stack: ("PT Sans", sans-serif)
+  ),
+  opensans: (
+    url: 'http://fonts.googleapis.com/css?family=Open+Sans:400,700',
+    stack: ('Open Sans', sans-serif)
+  ),
+  josefin: (
+    url: 'http://fonts.googleapis.com/css?family=Josefin+Slab:400,700',
+    stack: ('Josefin Slab', serif)
+  ),
+  arvo: (
+    url: 'http://fonts.googleapis.com/css?family=Arvo:400,700',
+    stack: ('Arvo', serif)
+  ),
+
+  vollkorn: (
+    url: 'http://fonts.googleapis.com/css?family=Vollkorn:400,700',
+    stack: ('Vollkorn', serif)
+  ),
+
+  ubuntu: (
+    url: 'http://fonts.googleapis.com/css?family=Ubuntu:400,700',
+    stack: ('Ubuntu', sans-serif)
+  ),
+
+  droidsans: (
+    url: 'http://fonts.googleapis.com/css?family=Droid+Sans:400,700',
+    stack: ('Droid Sans', sans-serif)
+  ),#body {   margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%); }
+#wrapper {font-family: 'Lato' sans-serif;font-weight: 300px; width:600px; margin:150px auto; text-align:center;  color:#fff; text-shadow:1px 1px #000; 
 }
 .heart p{padding-top:90px;}
 .heart {
