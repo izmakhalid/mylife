@@ -1,10 +1,9 @@
-* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body {  font-family: 'Roboto' sans-serif;
   font-style: normal;
   font-weight: 300px; margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%); }
 #wrapper { width:600px; margin:150px auto; text-align:center; font-weight:bold; color:#fff; text-shadow:1px 1px #000; 
 }
-.heart p{padding-top:90px;ont-family: 'Roboto' sans-seri}
+.heart p{padding-top:90px;}
 .heart {
     position: relative;
     top:25px;
@@ -47,12 +46,10 @@ body {  font-family: 'Roboto' sans-serif;
 	-o-transform-origin: 100% 100%;
 	transform-origin :100% 100%;
 }
-
 .heart {
 	-webkit-animation: pulse 2s infinite;
 	-webkit-animation-direction: alternate;
 }
-
 @-webkit-keyframes pulse {
     from {
 	    opacity:0;
@@ -73,9 +70,7 @@ body {  font-family: 'Roboto' sans-serif;
 		-moz-transform: scale(1.5); /* Firefox */
     }
 }
-
 #name{display:block;font-size:60px;}
-
 #izma span{
   text-align: center;
   font-family: 'Monsieur La Doulaise', cursive;
