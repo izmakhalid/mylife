@@ -1,7 +1,5 @@
-body {  font-family: 'Roboto' sans-serif;
-  font-style: normal;
-  font-weight: 300px; margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%); }
-#wrapper { width:600px; margin:150px auto; text-align:center; font-weight:bold; color:#fff; text-shadow:1px 1px #000; 
+#body {   margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%); }
+#wrapper { font-family: 'Roboto' sans-serif;font-weight: 300px;width:600px; margin:150px auto; text-align:center;  color:#fff; text-shadow:1px 1px #000; 
 }
 .heart p{padding-top:90px;}
 .heart {
