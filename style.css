@@ -1,13 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Monsieur+La+Doulaise);
+@import url(ttp://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700);
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-body { font-family:arial, helvetica, sans-serif; font-size:12px; margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%); }
-#wrapper { width:200px; margin:150px auto; text-align:center; font-weight:bold; color:#fff; text-shadow:1px 1px #000; }
+body {  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 300px; margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%); }
+#wrapper { width:600px; margin:150px auto; text-align:center; font-weight:bold; color:#fff; text-shadow:1px 1px #000; 
+}
+.heart p{padding-top:90px;}
 .heart {
     position: relative;
     top:25px;
-    margin-bottom:40px;
     width: 100px;
     height: 90px;
-    margin-left:50px;
+    margin:0 auto;
 }
 .heart:before,
 .heart:after {
@@ -69,4 +74,13 @@ body { font-family:arial, helvetica, sans-serif; font-size:12px; margin:12px; ba
 		-o-transform: scale(1.5); /* Opera */
 		-moz-transform: scale(1.5); /* Firefox */
     }
+}
+
+#name{display:block;font-size:60px;}
+
+#izma span{
+  text-align: center;
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 40px;
+  display:block;
 }
