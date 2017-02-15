@@ -1,14 +1,11 @@
-
 <!DOCTYPE html>
-<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>mylife</title>
     <link href='http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=Monsieur+La+Doulaise' rel='stylesheet' type='text/css'/>
 <style>
-body {   margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%); }
+#body {   margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%); }
 #wrapper { font-family: 'Roboto' sans-serif;font-weight: 300px;width:600px; margin:150px auto; text-align:center;  color:#fff; text-shadow:1px 1px #000; 
 }
 .heart p{padding-top:90px;}
@@ -54,12 +51,10 @@ body {   margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50
 	-o-transform-origin: 100% 100%;
 	transform-origin :100% 100%;
 }
-
 .heart {
 	-webkit-animation: pulse 2s infinite;
 	-webkit-animation-direction: alternate;
 }
-
 @-webkit-keyframes pulse {
     from {
 	    opacity:0;
@@ -80,9 +75,7 @@ body {   margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50
 		-moz-transform: scale(1.5); /* Firefox */
     }
 }
-
 #name{display:block;font-size:60px;}
-
 #izma span{
   text-align: center;
   font-family: 'Monsieur La Doulaise', cursive;
@@ -91,7 +84,7 @@ body {   margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50
 }
   </style>
   </head>
-  <body>
+  <body id="body">
    <div id="wrapper">
   <h1><span id="name">IZMA</span>YOU ARE MY</h1>
 <div class="heart pulse"></div>
