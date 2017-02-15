@@ -1,5 +1,5 @@
 #body {   margin:12px; background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%); }
-#wrapper { font-family: 'Roboto' sans-serif;font-weight: 300px;width:600px; margin:150px auto; text-align:center;  color:#fff; text-shadow:1px 1px #000; 
+#wrapper { width:600px; margin:150px auto; text-align:center;  color:#fff; text-shadow:1px 1px #000; 
 }
 .heart p{padding-top:90px;}
 .heart {
@@ -71,7 +71,6 @@
 #name{display:block;font-size:60px;}
 #izma span{
   text-align: center;
-  font-family: 'Monsieur La Doulaise', cursive;
   font-size: 40px;
   display:block;
 }
